@@ -15,9 +15,9 @@ fi
 # --- 2. Configuration Prompts ---
 echo ""
 echo "--- Setup Configuration ---"
-read -p "Enter your Main Domain (e.g., metrohyp.com): " DOMAIN_NAME
+read -p "Enter your Main Domain (e.g., lanreenlight.com): " DOMAIN_NAME
 read -p "Enter Subdomain (e.g., n8n): " SUBDOMAIN
-read -p "Enter Email for SSL (e.g., admin@metrohyp.com): " SSL_EMAIL
+read -p "Enter Email for SSL (e.g., admin@lanreenlight.com): " SSL_EMAIL
 
 # --- 3. Directory Setup ---
 # We use absolute paths to avoid "No such file" errors
